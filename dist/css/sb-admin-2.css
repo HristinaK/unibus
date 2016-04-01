@@ -12,6 +12,18 @@ body {
     width: 100%;
 }
 
+.about{
+    padding: 10px;
+    color: gray;
+}
+
+.about-name{
+    margin-bottom: -15px;
+    color: #0d6aad;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
 .brand::before {
     content: url(http://courses.finki.ukim.mk/moodle-io-small.png);
 }
@@ -103,8 +115,10 @@ body {
     padding-left: 0;
 }
 
-.sidebar .sidebar-search {
-    padding: 15px;
+.sidebar-search {
+    width: 230px;
+    margin-top: 13px;
+    margin-bottom: -13px;
 }
 
 .sidebar ul li {

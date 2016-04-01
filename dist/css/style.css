@@ -1,7 +1,7 @@
 .bg-blue{
     background: #ccebff;
 
-    
+
 }
 
 .br-10{
@@ -10,7 +10,7 @@
 
 .p-10{
     padding: 20px;
-    
+
 }
 
 .margin-20{
@@ -78,7 +78,7 @@ body {
 .profile-userbuttons .btn:last-child {
   margin-right: 0px;
 }
-    
+
 .profile-usermenu {
   margin-top: 30px;
 }
@@ -140,46 +140,41 @@ body {
     text-align: center;
 }
 
-@brand-color: #b20000;
 #tcb-testimonial-carousel {
-    a{
-        color: @brand-color;
-    }
-    .text-brand{
-        color: @brand-color;
-    }
     margin-top: 30px;
-    .carousel-indicators .active {
-        background: @brand-color;
+}
+
+#tcb-testimonial-carousel a{
+        color: gray;
     }
-    .no-margin{
+#tcb-testimonial-carousel .text-brand{
+        color: gray;
+    }
+#tcb-testimonial-carousel .carousel-indicators .active {
+        background: gray;
+    }
+#tcb-testimonial-carousel .no-margin{
         margin: 0;
     }
-    .carousel-indicators li {
+#tcb-testimonial-carousel .carousel-indicators li {
         border: 1px solid #ccc;
     }
-    .carousel-control {
-        color: @brand-color;
+#tcb-testimonial-carousel .carousel-control {
+        color: gray;
         width: 5%;
     }
-    .carousel-control:hover,
+#tcb-testimonial-carousel .carousel-control:hover,
     .carousel-control:focus {
-        color: @brand-color;
+        color:gray;
     }
-    .carousel-control.left,
-    .carousel-control.right {
+#tcb-testimonial-carousel .carousel-control.left,
+#tcb-testimonial-carousel .carousel-control.right {
         background-image: none;
     }
-    .item{
+#tcb-testimonial-carousel .item{
         padding: 15px 40px;
         background: #f8f8f8;
     }
-    .media-object {
+#tcb-testimonial-carousel .media-object {
         margin: auto;
     }
-    @media screen and (max-width: 768px) {
-        .media-object {
-            margin-bottom: 15px;
-        }
-    }
-}
