@@ -1,3 +1,22 @@
+.pill{
+    background: #0080ff;
+    display: inline-block;
+    color: #fff;
+    padding: 0px 10px;
+    border-radius: 50px;    
+}
+
+.pill:hover{
+    
+    background: #3498db;
+    
+}
+
+
+.ds-10{
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+}
+
 .bg-blue{
     background: #ccebff;
 
@@ -122,7 +141,7 @@ body {
 .profile-content {
   padding: 20px;
   background: #fff;
-  min-height: 460px;
+  height: auto;
 }
 
 .header {
